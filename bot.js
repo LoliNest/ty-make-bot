@@ -10,7 +10,13 @@ client.on('message', message => {
     	message.reply('apalo poi poi');
   	}
 });
+});
 
+client.on('message', message => {
+    if (message.content === 'pagi') {
+    	message.reply('pagi juga, jangan lupa mandi ya..');
+  	}
+});
 
 
 // THIS  MUST  BE  THIS  WAY
